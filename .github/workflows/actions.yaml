@@ -1,5 +1,5 @@
 name: deployment-pipeline
-'on':
+on:
   push:
     branches:
       - main
@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: keep it real
-        runs: echo "add code here"
+        run: echo "add code here"
