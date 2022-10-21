@@ -3,7 +3,7 @@ name: deployment-pipeline
 on:
   push:
     branches:
-      - main
+      - workshop-3
 
   pull_request:
 
