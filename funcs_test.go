@@ -8,7 +8,7 @@ func TestTauntMe(t *testing.T) {
 	got := TauntMe("Glenn")
 	want := "Glenn smells of elderberries."
 
-	if got == want {
+	if got != want {
 		t.Errorf("got %s, wanted %s", got, want)
 	}
 }
